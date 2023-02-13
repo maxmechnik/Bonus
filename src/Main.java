@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int account = 100;
-        int deposit = 1200;
+        int deposit = 1500;
 
         int bonus;
         if (deposit > 1000) {
@@ -12,7 +12,7 @@ public class Main {
         int totalAmount = account + deposit + bonus;
 
 
-        System.out.println("Итоговая сумма на счете " + totalAmount + "Р" + " в том числе BONUS ");
+        System.out.println("Итоговая сумма на счете " + totalAmount + "Р" + " в том числе BONUS " + bonus);
 
 
     }
